@@ -17,7 +17,7 @@
           </span>
         </div>
         <div class="column is-size-6 is-paddingless c_quote-block__ctas">
-          <a :href="'https://twitter.com/intent/tweet?text=' + quote + '%20%23bluffballio&source=webclient'" target="_blank" class="has-bg-twitter has-space-7 is-inline-block">
+          <a :href="'https://twitter.com/intent/tweet?text=' + quote + '&source=webclient'" target="_blank" class="has-bg-twitter has-space-7 is-inline-block">
             tweet this bluff
           </a>
         </div>

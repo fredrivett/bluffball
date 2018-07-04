@@ -1,5 +1,5 @@
 <template>
-  <div class="o_block container">
+  <div class="o_block o_block--bottom container">
     <QuoteBlock
       quote="Dier was awful when he came on, but showed great composure for his penalty"
       team1="colombia"

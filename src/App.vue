@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <a href="https://twitter.com/intent/tweet?text=%20%23bluffball&source=webclient" target="_blank" class="c_bar">
+      <p><strong>Already an armchair football pundit?</strong> Donate your twitter punditry by adding '#bluffball', we'll publish &amp; link to the best here</p>
+    </a>
     <header class="section c_header">
-      <div class="o_block container">
+      <div class="o_block o_block--large container">
         <div class="columns is-centered is-vcentered">
           <div class="section column o_block c_header__main">
             <div class="o_block o_block--small o_block--bottom">
@@ -19,7 +22,7 @@
     <router-view/>
 
     <footer class="section">
-      <div class="o_block container c_footer">
+      <div class="o_block o_block--large container c_footer">
         <div class="columns is-centered is-vcentered">
           <div class="section column o_block c_header__main o_border-list">
             <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">'Inspired' by some IT folks</a>
@@ -60,6 +63,7 @@ $green-dark: #27ae60;
 $green-darker: #288E51;
 
 $twitter: #1da1f2;
+$twitter-dark: #0079c3;
 $facebook: #3b5998;
 
 
@@ -108,6 +112,10 @@ body {
   background-color: $green;
   min-height: 100vh;
   font-family: $font-mono;
+
+  @include desktop {
+    padding-top: 64px;
+  }
 }
 
 #app {
@@ -186,12 +194,12 @@ a {
 }
 
 .o_block--large {
-     padding-top: $size-1;
-  padding-bottom: $size-1;
+     padding-top: $size-2;
+  padding-bottom: $size-2;
 
   @include tablet {
-       padding-top: $size-1 * 1.33;
-    padding-bottom: $size-1 * 1.33;
+       padding-top: $size-1;
+    padding-bottom: $size-1;
   }
 }
 
@@ -233,6 +241,32 @@ a {
 
 
 
+
+
+
+
+.c_bar {
+  display: block;
+  background-color: $green-dark;
+  padding: 20px;
+  color: $white;
+  box-shadow: 5px 5px 0px 0px $green-darker;
+
+  @at-root a#{&} {
+    &:hover {
+      background-color: $green-darker;
+      color: $white;
+    }
+  }
+
+  @include desktop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+}
 
 
 .c_footer {
@@ -440,7 +474,7 @@ a {
 
   &:hover {
     color: white;
-    box-shadow: 3px 3px 0px 0px $dark-grey;
+    background-color: $twitter-dark !important;
   }
 }
 
