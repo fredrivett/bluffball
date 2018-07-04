@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="columns c_quote-block__footer">
-        <div class="column is-narrow is-size-6 c_quote-block__score has-text-left-tablet has-text-left-desktop is-paddingless">
+        <div class="column is-size-6 c_quote-block__score has-text-left-tablet has-text-left-desktop is-paddingless is-narrow-mobile is-narrow-tablet-only">
           <span class="has-space-tiny c_score">
             <img :src="team1Image" class="c_flag c_score__flag is-block" v-if="team1Image">
             <span class="c_score__result">{{ score }}</span>
@@ -21,7 +21,7 @@
             tweet this bluff
           </a>
         </div>
-        <div class="column is-narrow is-size-6 c_quote-block__meta has-text-left-tablet has-text-right-desktop is-paddingless">
+        <div class="column is-size-6 c_quote-block__meta has-text-left-tablet has-text-right-desktop is-paddingless is-narrow-mobile is-narrow-tablet-only">
           <span class="has-bg-grey has-space-7 is-inline-block" v-if="!byTweet && byUsername">
             submitted by: @{{ byUsername }}
           </span>

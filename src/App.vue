@@ -22,7 +22,7 @@
       <div class="o_block container c_footer">
         <div class="columns is-centered is-vcentered">
           <div class="section column o_block c_header__main o_border-list">
-            <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">"Inspired" by some IT folks</a>
+            <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">'Inspired' by some IT folks</a>
             <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="nofollow">Icons thanks to Freepik</a>
             <a href="https://www.producthunt.com/upcoming/the-dot" target="_blank" rel="nofollow">Brought to you by The Dot</a>
           </div>
@@ -407,6 +407,12 @@ a {
     flex: none;
     width: 16.667%;
     }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .column.is-narrow-tablet-only {
+    flex: none;
+  }
 }
 
 

@@ -3,7 +3,7 @@
     <QuoteBlock
       quote="Dier was awful when he came on, but showed great composure for his penalty"
       team1="colombia"
-      score="1-1"
+      score="1-1[p]"
       team2="england"
       byUsername="pace"
       byTweet="https://twitter.com/pace"
@@ -13,7 +13,7 @@
     <QuoteBlock
       quote="Colombia's antics were shocking"
       team1="colombia"
-      score="1-1"
+      score="1-1[p]"
       team2="england"
       byUsername="pace"
       byTweet="https://twitter.com/pace"
@@ -23,7 +23,7 @@
     <QuoteBlock
       quote="England have just got to be better in the final third"
       team1="colombia"
-      score="1-1"
+      score="1-1[p]"
       team2="england"
       byUsername="pace"
       byTweet="https://twitter.com/pace"
