@@ -2,14 +2,14 @@
   <div id="app">
     <header class="section c_header">
       <div class="o_block container">
-        <div class="columns is-centered is-vcentered is-mobile">
+        <div class="columns is-centered is-vcentered">
           <div class="section column o_block c_header__main">
             <div class="o_block o_block--small o_block--bottom">
               <h1 class="is-size-1 is-uppercase">Bluffball<span class="is-size-3">.io</span></h1>
             </div>
             <p class="is-size-5">Transform yourself into the armchair football<br class="is-hidden-mobile is-hidden-tablet-only"> pundit your friends seem to think they are</p>
           </div>
-          <div class="column is-one-third-desktop" style="padding-left: 60px;">
+          <div class="column is-hidden-mobile is-one-third-tablet is-one-quarter-desktop" style="padding-left: 60px;">
             <img src="./assets/bluffball.png" class="c_bluffball">
           </div>
         </div>
@@ -19,13 +19,14 @@
     <router-view/>
 
     <footer class="section">
-      <div class="o_block container">
-        <div class="columns is-centered is-vcentered is-mobile">
+      <div class="o_block container c_footer">
+        <div class="columns is-centered is-vcentered">
           <div class="section column o_block c_header__main o_border-list">
             <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">"Inspired" by some IT folks</a>
             <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="nofollow">Icons thanks to Freepik</a>
+            <a href="https://www.producthunt.com/upcoming/the-dot" target="_blank" rel="nofollow">Brought to you by The Dot</a>
           </div>
-          <div class="column is-one-fifth-tablet is-one-sixth-desktop" style="padding-left: 60px; max-width: 190px;">
+          <div class="column is-one-fifth-tablet is-one-sixth-desktop is-hidden-mobile" style="padding-left: 60px; max-width: 190px;">
             <a href="https://www.producthunt.com/upcoming/the-dot" class="c_thedot">
               <img src="./assets/thedot.png">
             </a>
@@ -63,7 +64,7 @@ $facebook: #3b5998;
 
 
 
-$font-sharetech: 'Share Tech Mono', monospace;
+$font-mono: 'Nanum Gothic Coding', monospace;
 
 
 
@@ -106,7 +107,7 @@ $font-sharetech: 'Share Tech Mono', monospace;
 body {
   background-color: $green;
   min-height: 100vh;
-  font-family: $font-sharetech;
+  font-family: $font-mono;
 }
 
 #app {
@@ -114,6 +115,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  overflow: hidden;
 }
 
 
@@ -233,15 +235,23 @@ a {
 
 
 
+.c_footer {
+  @include mobile {
+    padding-right: 40px;
+  }
+}
 
 
-.c_header {}
+.c_header {
+  @include mobile {
+    padding-right: 70px;
+  }
+}
 
   .c_header__main {
     position: relative;
     background-color: $green-dark;
     color: white;
-    font-style: bold;
 
     &, &::after {
       box-shadow: 10px 10px 0px 0px $green-darker;
@@ -262,7 +272,6 @@ a {
 
 .c_quote-block {
   position: relative;
-  font-style: bold;
   z-index: 0; // set context
 
   & > * {
@@ -387,6 +396,10 @@ a {
 
 .is-size-1 {
   line-height: 1;
+
+  @include mobile {
+    font-size: 2rem !important;
+  }
 }
 
 @media screen and (min-width: 1088px) {

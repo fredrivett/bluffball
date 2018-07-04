@@ -5,8 +5,8 @@
       team1="colombia"
       score="1-1"
       team2="england"
-      byUsername="pacee"
-      byTweet="https://twitter.com/TheKendallEnd/status/1014476653999869952"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace"
       timestamp="1530735123"
     />
 
@@ -15,8 +15,8 @@
       team1="colombia"
       score="1-1"
       team2="england"
-      byUsername="pacee"
-      byTweet="https://twitter.com/TheKendallEnd/status/1014476653999869952"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace"
       timestamp="1530705123"
     />
 
@@ -25,8 +25,8 @@
       team1="colombia"
       score="1-1"
       team2="england"
-      byUsername="pacee"
-      byTweet="https://twitter.com/TheKendallEnd/status/1014476653999869952"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace"
       timestamp="1530635123"
     />
   </div>

@@ -17,11 +17,8 @@
           </span>
         </div>
         <div class="column is-size-6 is-paddingless c_quote-block__ctas">
-          <a href="#" target="_blank" class="has-bg-facebook has-space-7 is-inline-block">
-            fit in on facebook
-          </a>
-          <a href="#" target="_blank" class="has-bg-twitter has-space-7 is-inline-block">
-            tweet your knowledge
+          <a :href="'https://twitter.com/intent/tweet?text=' + quote + '%20%23bluffballio&source=webclient'" target="_blank" class="has-bg-twitter has-space-7 is-inline-block">
+            tweet this bluff
           </a>
         </div>
         <div class="column is-narrow is-size-6 c_quote-block__meta has-text-left-tablet has-text-right-desktop is-paddingless">
