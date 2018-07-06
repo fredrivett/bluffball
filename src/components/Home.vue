@@ -1,6 +1,16 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="The header from Varane was class, but nothing compared to that save from Lloris."
+      team1="uruguay"
+      score="0-1*"
+      team2="france"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530888997"
+    />
+
+    <QuoteBlock
       quote="All very well Sweden playing their unique brand of football, but can they do it on a cold rainy night in Stoke?"
       team1="sweden"
       score="x-x"
