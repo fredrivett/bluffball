@@ -10,7 +10,10 @@
             <div class="o_block o_block--small o_block--bottom">
               <h1 class="is-size-1 is-uppercase">Bluffball<span class="is-size-3">.io</span></h1>
             </div>
-            <p class="is-size-5">Transform yourself into the armchair football<br class="is-hidden-mobile is-hidden-tablet-only"> pundit your friends seem to think they are</p>
+            <div class="o_block o_block--small o_block--bottom">
+              <p class="is-size-5">Transform yourself into the armchair football<br class="is-hidden-mobile is-hidden-tablet-only"> pundit your friends seem to think they are</p>
+            </div>
+            <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank" class="is-size-5"><strong>What's Bluffball?</strong></a>
           </div>
           <div class="column is-hidden-mobile is-one-third-tablet is-one-quarter-desktop" style="padding-left: 60px;">
             <img src="./assets/bluffball.png" class="c_bluffball">
@@ -24,11 +27,11 @@
     <footer class="section">
       <div class="o_block o_block--large container c_footer">
         <div class="columns is-centered is-vcentered">
-          <div class="section column o_block c_header__main o_border-list">
-            <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">'Inspired' by some IT folks</a>
-            <a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="nofollow">Icons thanks to Freepik</a>
-            <a href="https://www.producthunt.com/upcoming/the-dot" target="_blank" rel="nofollow">Brought to you by The Dot</a>
-          </div>
+          <ul class="section column o_block c_header__main o_border-list">
+            <li><a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">'Inspired' by some IT folks</a></li>
+            <li><a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="nofollow">Icons thanks to Freepik</a></li>
+            <li><a href="https://www.producthunt.com/upcoming/the-dot" target="_blank" rel="nofollow">Brought to you by The Dot</a></li>
+          </ul>
           <div class="column is-one-fifth-tablet is-one-sixth-desktop is-hidden-mobile" style="padding-left: 60px; max-width: 190px;">
             <a href="https://www.producthunt.com/upcoming/the-dot" class="c_thedot">
               <img src="./assets/thedot.png">
@@ -148,6 +151,16 @@ body {
 
 a {
   color: inherit;
+  background-image: linear-gradient(to right, rgba($dark, 0.25) 0%, rgba($dark, 0.25) 100%);
+  background-repeat: repeat-x; // make it horizontal
+  background-position: 0 100%; // change the second value to adjust how far from the top the underline should be
+  background-size: 100% 0.15em; // change the second value to the desired height of the underline
+  text-decoration: none;
+
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba($dark, 0.5) 0%, rgba($dark, 0.5) 100%);
+  }
 }
 
 
@@ -231,9 +244,13 @@ a {
 
 
 .o_border-list {
-  & > *:nth-last-child(n+2) {
-    border-right: 1px solid currentColor;
-    padding-right: 0.7em;
+  & > * {
+    display: inline-block;
+
+    &:nth-last-child(n+2) {
+      border-right: 1px solid currentColor;
+      padding-right: 0.7em;
+    }
   }
 }
 
@@ -247,6 +264,7 @@ a {
 
 .c_bar {
   display: block;
+  background: none;
   background-color: $green-dark;
   padding: 20px;
   color: $white;
@@ -254,6 +272,7 @@ a {
 
   @at-root a#{&} {
     &:hover {
+      background: none;
       background-color: $green-darker;
       color: $white;
     }
@@ -384,11 +403,15 @@ a {
 
 .c_thedot {
   display: block;
+  background: none;
+
   img {
     transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
   &:hover {
+    background: none;
+
     img {
       transform: scale(1.2) rotate(-10deg);
       opacity: 0.9;
