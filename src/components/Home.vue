@@ -26,7 +26,7 @@
       team2="england"
       byUsername="pace"
       byTweet="https://twitter.com/pace"
-      timestamp="1530864013"
+      timestamp="1530860013"
     />
 
     <QuoteBlock
