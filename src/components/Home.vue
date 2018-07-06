@@ -1,6 +1,16 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="I've been telling you guys a million times Pavard was our secret pocket pick"
+      team1="uruguay"
+      score="x-x"
+      team2="france"
+      byUsername="hyperVillain"
+      byTweet="https://twitter.com/hyperVillain"
+      timestamp="1530876032"
+    />
+
+    <QuoteBlock
       quote="Cavani is a big miss for Uruguay, but they're so strong at the back"
       team1="uruguay"
       score="x-x"

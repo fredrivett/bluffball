@@ -23,10 +23,10 @@
         </div>
         <div class="column is-size-6 c_quote-block__meta has-text-left-tablet has-text-right-desktop is-paddingless is-narrow-mobile is-narrow-tablet-only">
           <span class="has-bg-grey has-space-7 is-inline-block" v-if="!byTweet && byUsername">
-            submitted by: @{{ byUsername }}
+            by: @{{ byUsername }}
           </span>
           <a :href="byTweet" target="_blank" class="has-bg-grey has-space-7 is-inline-block" v-else-if="byUsername">
-            submitted by: @{{ byUsername }}
+            by: @{{ byUsername }}
           </a>
           <span class="has-bg-grey has-space-7 is-inline-block" v-if="timestamp">
             {{ timeago(timestamp) }}
