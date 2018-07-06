@@ -1,6 +1,16 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="All very well Sweden playing their unique brand of football, but can they do it on a cold rainy night in Stoke?"
+      team1="sweden"
+      score="x-x"
+      team2="england"
+      byUsername="LaurieAinley"
+      byTweet="https://twitter.com/LaurieAinley"
+      timestamp="1530876549"
+    />
+
+    <QuoteBlock
       quote="I've been telling you guys a million times Pavard was our secret pocket pick"
       team1="uruguay"
       score="x-x"
