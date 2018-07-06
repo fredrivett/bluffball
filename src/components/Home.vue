@@ -1,9 +1,19 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="France have played well, but that was a big mistake from Muslera."
+      team1="uruguay"
+      score="0-2*"
+      team2="france"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530890411"
+    />
+
+    <QuoteBlock
       quote="The header from Varane was class, but nothing compared to that save from Lloris."
       team1="uruguay"
-      score="0-1*"
+      score="0-2*"
       team2="france"
       byUsername="fredrivett"
       byTweet="https://twitter.com/fredrivett"
