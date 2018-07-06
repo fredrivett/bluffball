@@ -13,7 +13,7 @@
             <div class="o_block o_block--small o_block--bottom">
               <p class="is-size-5">Transform yourself into the armchair football<br class="is-hidden-mobile is-hidden-tablet-only"> pundit your friends seem to think they are</p>
             </div>
-            <a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank" class="is-size-5"><strong>What's Bluffball?</strong></a>
+            <a href="https://www.youtube.com/watch?v=MpjYGjSeLoE" target="_blank" class="is-size-5"><strong>What's Bluffball?</strong></a>
           </div>
           <div class="column is-hidden-mobile is-one-third-tablet is-one-quarter-desktop" style="padding-left: 60px;">
             <img src="./assets/bluffball.png" class="c_bluffball">
@@ -28,7 +28,7 @@
       <div class="o_block o_block--large container c_footer">
         <div class="columns is-centered is-vcentered">
           <ul class="section column o_block c_header__main o_border-list">
-            <li><a href="https://www.youtube.com/watch?v=msN7HNncHik&feature=youtu.be&t=2m13s" target="_blank">'Inspired' by some IT folks</a></li>
+            <li><a href="https://www.youtube.com/watch?v=MpjYGjSeLoE" target="_blank">'Inspired' by some IT folks</a></li>
             <li><a href="https://www.flaticon.com/authors/freepik" target="_blank" rel="nofollow">Icons thanks to Freepik</a></li>
             <li><a href="https://www.producthunt.com/upcoming/the-dot" target="_blank" rel="nofollow">Brought to you by The Dot</a></li>
           </ul>
