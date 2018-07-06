@@ -6,7 +6,7 @@
       score="x-x"
       team2="england"
       byUsername="LaurieAinley"
-      byTweet="https://twitter.com/LaurieAinley"
+      byTweet="https://twitter.com/LaurieAinley/status/1015195249977839616"
       timestamp="1530876549"
     />
 
@@ -16,7 +16,7 @@
       score="x-x"
       team2="france"
       byUsername="hyperVillain"
-      byTweet="https://twitter.com/hyperVillain"
+      byTweet="https://twitter.com/hyperVillain/status/1015194083537707008"
       timestamp="1530876032"
     />
 
