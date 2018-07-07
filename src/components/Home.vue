@@ -1,9 +1,19 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
-      quote="France have played well, but that was a big mistake from Muslera."
+      quote="Neymar goes home, maybe it's finally time for Belgium's golden generation to deliver"
+      team1="brazil"
+      score="1-2"
+      team2="belgium"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530950032"
+    />
+
+    <QuoteBlock
+      quote="France have played well, but that was a big mistake from Muslera"
       team1="uruguay"
-      score="0-2*"
+      score="0-2"
       team2="france"
       byUsername="fredrivett"
       byTweet="https://twitter.com/fredrivett"
@@ -11,9 +21,9 @@
     />
 
     <QuoteBlock
-      quote="The header from Varane was class, but nothing compared to that save from Lloris."
+      quote="The header from Varane was class, but nothing compared to that save from Lloris"
       team1="uruguay"
-      score="0-2*"
+      score="0-2"
       team2="france"
       byUsername="fredrivett"
       byTweet="https://twitter.com/fredrivett"
@@ -28,35 +38,6 @@
       byUsername="LaurieAinley"
       byTweet="https://twitter.com/LaurieAinley/status/1015195249977839616"
       timestamp="1530876549"
-    />
-
-    <QuoteBlock
-      quote="I've been telling you guys a million times Pavard was our secret pocket pick"
-      team1="uruguay"
-      score="x-x"
-      team2="france"
-      byUsername="hyperVillain"
-      byTweet="https://twitter.com/hyperVillain/status/1015194083537707008"
-      timestamp="1530876032"
-    />
-
-    <QuoteBlock
-      quote="Cavani is a big miss for Uruguay, but they're so strong at the back"
-      team1="uruguay"
-      score="x-x"
-      team2="france"
-      byUsername="pace"
-      byTweet="https://twitter.com/pace"
-      timestamp="1530864013"
-    />
-
-    <QuoteBlock quote="France were so poor in the group games, but are starting to show what they're capable of"
-      team1="uruguay"
-      score="x-x"
-      team2="france"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530864013"
     />
 
     <QuoteBlock
