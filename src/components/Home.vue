@@ -1,6 +1,76 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="Croatia squeeze through on penalties again, they may well be tired for the game on Wednesday"
+      team1="russia"
+      score="2-2[p]"
+      team2="croatia"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530999900"
+    />
+
+    <QuoteBlock
+      quote="So Russia are out. They've performed far above expectations and can leave with their heads held high"
+      team1="russia"
+      score="2-2[p]"
+      team2="croatia"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530999900"
+    />
+
+    <QuoteBlock
+      quote="That goal from Cheryshev was right from the top drawer"
+      team1="russia"
+      score="2-2[p]"
+      team2="croatia"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530999900"
+    />
+
+    <QuoteBlock
+      quote="It's coming home"
+      team1="sweden"
+      score="0-2"
+      team2="england"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530986600"
+    />
+
+    <QuoteBlock
+      quote="If Southgate doesn't get a knighthood then I don't know what I'll do"
+      team1="sweden"
+      score="0-2"
+      team2="england"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530986600"
+    />
+
+    <QuoteBlock
+      quote="Sterling's off the ball movement was on point, but he still breaks down in front of goal"
+      team1="sweden"
+      score="0-2"
+      team2="england"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530986600"
+    />
+
+    <QuoteBlock
+      quote="Pickford's saves were world class, and put any doubts about his quality to bed"
+      team1="sweden"
+      score="0-2"
+      team2="england"
+      byUsername="fredrivett"
+      byTweet="https://twitter.com/fredrivett"
+      timestamp="1530986600"
+    />
+
+    <QuoteBlock
       quote="Neymar goes home, maybe it's finally time for Belgium's golden generation to deliver"
       team1="brazil"
       score="1-2"
@@ -28,76 +98,6 @@
       byUsername="fredrivett"
       byTweet="https://twitter.com/fredrivett"
       timestamp="1530888997"
-    />
-
-    <QuoteBlock
-      quote="All very well Sweden playing their unique brand of football, but can they do it on a cold rainy night in Stoke?"
-      team1="sweden"
-      score="x-x"
-      team2="england"
-      byUsername="LaurieAinley"
-      byTweet="https://twitter.com/LaurieAinley/status/1015195249977839616"
-      timestamp="1530876549"
-    />
-
-    <QuoteBlock
-      quote="Sweden are so well organised, gonna be hard to break them down"
-      team1="sweden"
-      score="x-x"
-      team2="england"
-      byUsername="pace"
-      byTweet="https://twitter.com/pace"
-      timestamp="1530860013"
-    />
-
-    <QuoteBlock
-      quote="Dier was awful when he came on, but showed great composure for his penalty"
-      team1="colombia"
-      score="1-1[p]"
-      team2="england"
-      byUsername="pace"
-      byTweet="https://twitter.com/pace"
-      timestamp="1530705123"
-    />
-
-    <QuoteBlock
-      quote="Colombia's antics were shocking"
-      team1="colombia"
-      score="1-1[p]"
-      team2="england"
-      byUsername="pace"
-      byTweet="https://twitter.com/pace"
-      timestamp="1530705123"
-    />
-
-    <QuoteBlock
-      quote="England have just got to be better in the final third"
-      team1="colombia"
-      score="1-1[p]"
-      team2="england"
-      byUsername="pace"
-      byTweet="https://twitter.com/pace"
-      timestamp="1530705123"
-    />
-
-    <QuoteBlock
-      quote="Belgium's comeback showed what they're made of, but Japan can feel hard done by after an excellent performance"
-      team1="belgium"
-      score="3-2"
-      team2="japan"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530604123"
-    />
-
-    <QuoteBlock
-      quote="No-one saw Russia's performance at this world cup coming"
-      team1="spain"
-      score="1-1[p]"
-      team2="russia"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530602123"
     />
   </div>
 </template>
