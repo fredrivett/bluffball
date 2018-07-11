@@ -1,6 +1,36 @@
 <template>
   <div class="o_block o_block--bottom container">
     <QuoteBlock
+      quote="Belgium has such a great team, but ultimately couldn't put it together in the final third"
+      team1="france"
+      score="1-0"
+      team2="belgium"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace/status/1017013539293319168"
+      timestamp="1531313460"
+    />
+
+    <QuoteBlock
+      quote="Mbappe has properly arrived on the world football scene at this World Cup. Expect we'll see a lot more of him in future major tournaments"
+      team1="france"
+      score="1-0"
+      team2="belgium"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace/status/1017010444257591297"
+      timestamp="1531312620"
+    />
+
+    <QuoteBlock
+      quote="It was a tight game last night, but France – and especially Varane – put on a convincing defensive display"
+      team1="france"
+      score="1-0"
+      team2="belgium"
+      byUsername="pace"
+      byTweet="https://twitter.com/pace/status/1017009431995932673"
+      timestamp="1531312500"
+    />
+
+    <QuoteBlock
       quote="Croatia squeeze through on penalties again, they may well be tired for the game on Wednesday"
       team1="russia"
       score="2-2[p]"
@@ -68,36 +98,6 @@
       byUsername="fredrivett"
       byTweet="https://twitter.com/fredrivett"
       timestamp="1530986600"
-    />
-
-    <QuoteBlock
-      quote="Neymar goes home, maybe it's finally time for Belgium's golden generation to deliver"
-      team1="brazil"
-      score="1-2"
-      team2="belgium"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530950032"
-    />
-
-    <QuoteBlock
-      quote="France have played well, but that was a big mistake from Muslera"
-      team1="uruguay"
-      score="0-2"
-      team2="france"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530890411"
-    />
-
-    <QuoteBlock
-      quote="The header from Varane was class, but nothing compared to that save from Lloris"
-      team1="uruguay"
-      score="0-2"
-      team2="france"
-      byUsername="fredrivett"
-      byTweet="https://twitter.com/fredrivett"
-      timestamp="1530888997"
     />
   </div>
 </template>
